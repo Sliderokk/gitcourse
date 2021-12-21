@@ -1,0 +1,242 @@
+[33mcommit 60f202bc3d1780a709e9fcf778f9f1453db807de[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mreadme[m[33m)[m
+Author: Sliderokk <kuksov.sergey.victorovich@gmail.com>
+Date:   Sat Dec 18 13:04:07 2021 +0200
+
+    created file readme2
+
+[1mdiff --git a/readme.md b/readme.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6dd2ab9[m
+[1m--- /dev/null[m
+[1m+++ b/readme.md[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m# Test branch for GitHub[m
+\ No newline at end of file[m
+[1mdiff --git a/task1.php b/task1.php[m
+[1mindex 61bd21b..264556f 100644[m
+[1m--- a/task1.php[m
+[1m+++ b/task1.php[m
+[36m@@ -6,4 +6,4 @@[m
+     <input type="submit">[m
+ </form>[m
+ [m
+[31m-<h1>Change</h1>jjjjjjj[m
+[32m+[m[32m<h1>Change</h1>[m
+
+[33mcommit 8c6158b99fba6a7847df92f2c4e763bf175c429a[m
+Author: Sliderokk <kuksov.sergey.victorovich@gmail.com>
+Date:   Thu Dec 16 11:54:24 2021 +0200
+
+    created file readme
+
+[1mdiff --git a/task1.php b/task1.php[m
+[1mindex fc84ebb..61bd21b 100644[m
+[1m--- a/task1.php[m
+[1m+++ b/task1.php[m
+[36m@@ -6,4 +6,4 @@[m
+     <input type="submit">[m
+ </form>[m
+ [m
+[31m-<h1>Change</h1>[m
+\ No newline at end of file[m
+[32m+[m[32m<h1>Change</h1>jjjjjjj[m
+
+[33mcommit 79d24f463ebe7c42a38b2391795ccd550e8a0792[m
+Author: Sliderokk <kuksov.sergey.victorovich@gmail.com>
+Date:   Thu Dec 16 11:45:39 2021 +0200
+
+    First commit
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..75542b6[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32merrors.txt[m
+[32m+[m[32m/logs[m
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..73f69e0[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[32m+[m[32m# Datasource local storage ignored files[m
+[32m+[m[32m/dataSources/[m
+[32m+[m[32m/dataSources.local.xml[m
+[32m+[m[32m# Editor-based HTTP Client requests[m
+[32m+[m[32m/httpRequests/[m
+[1mdiff --git a/.idea/kuk.iml b/.idea/kuk.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c956989[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/kuk.iml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="WEB_MODULE" version="4">[m
+[32m+[m[32m  <component name="NewModuleRootManager">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$" />[m
+[32m+[m[32m    <orderEntry type="inheritedJdk" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..28a804d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="JavaScriptSettings">[m
+[32m+[m[32m    <option name="languageLevel" value="ES6" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ba02969[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/kuk.iml" filepath="$PROJECT_DIR$/.idea/kuk.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/php.xml b/.idea/php.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7341688[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/php.xml[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..680355c[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="VcsDirectoryMappings">[m
+[32m+[m[32m    <mapping directory="C:/Program Files/Git" vcs="" />[m
+[32m+[m[32m    <mapping directory="$PROJECT_DIR$" vcs="Git" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/123.html b/123.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0512d9a[m
+[1m--- /dev/null[m
+[1m+++ b/123.html[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <title>Title</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m<p>12345</p>[m
+[32m+[m[32m<?php[m
+[32m+[m[32mecho "hello123";[m
+[32m+[m[32m?>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/123.php b/123.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7fb2971[m
+[1m--- /dev/null[m
+[1m+++ b/123.php[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<?php[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m?>[m
+[32m+[m
+[1mdiff --git a/result.php b/result.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..61ac399[m
+[1m--- /dev/null[m
+[1m+++ b/result.php[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<p>Ваш результат:</p>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<?php[m
+[32m+[m[32mecho $_POST;[m
+[32m+[m[32m$answer3 = $_POST['$answer3'];[m
+[32m+[m[32mecho $answer3;[m
+[32m+[m[32m?>[m
+[32m+[m
+[32m+[m
+[1mdiff --git a/task1.php b/task1.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fc84ebb[m
+[1m--- /dev/null[m
+[1m+++ b/task1.php[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32m<p>Вопрос 1:</p>[m
+[32m+[m[32m<p>2 + 2 = ?</p>[m
+[32m+[m
+[32m+[m[32m<form action="task2.php">[m
+[32m+[m[32m    <input type="text" name="answer1" method="post">[m
+[32m+[m[32m    <input type="submit">[m
+[32m+[m[32m</form>[m
+[32m+[m
+[32m+[m[32m<h1>Change</h1>[m
+\ No newline at end of file[m
+[1mdiff --git a/task2.php b/task2.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..44f1934[m
+[1m--- /dev/null[m
+[1m+++ b/task2.php[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<?php[m
+[32m+[m[32msession_start()[m
+[32m+[m[32m?>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<p>Вопрос 2:</p>[m
+[32m+[m[32m<p>3 + 3 = ?</p>[m
+[32m+[m
+[32m+[m[32m<form action="task3.php">[m
+[32m+[m[32m    <input type="text" name="answer2" method="post">[m
+[32m+[m[32m    <input type="submit">[m
+[32m+[m[32m</form>[m
+\ No newline at end of file[m
+[1mdiff --git a/task3.php b/task3.php[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d743b64[m
+[1m--- /dev/null[m
+[1m+++ b/task3.php[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32m<p>Вопрос 3:</p>[m
+[32m+[m[32m<p>4 + 4 = ?</p>[m
+[32m+[m
+[32m+[m[32m<form action="result.php" method="post">[m
+[32m+[m[32m    <input type="text" name="answer3">[m
+[32m+[m[32m    <input type="submit" value="Отправить">[m
+[32m+[m[32m</form>[m
+\ No newline at end of file[m
